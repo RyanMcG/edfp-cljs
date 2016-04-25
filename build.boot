@@ -11,7 +11,13 @@
 (require '[adzerk.boot-cljs :refer [cljs]])
 (require '[adzerk.boot-cljs-repl :refer [cljs-repl start-repl]])
 
+(task-options!
+  target {:dir #{"target"}}
+  cljs {:source-map true
+        :compiler-options {:target :nodejs}})
+
 (deftask dev []
   (comp (watch)
+        (target)
         (cljs-repl)
         (cljs)))
