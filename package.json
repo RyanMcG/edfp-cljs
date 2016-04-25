@@ -1,0 +1,17 @@
+{
+  "name": "edfp",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ryan McGowan",
+    "email": "ryan@ryanmcg.com"
+  },
+
+  "repository": "RyanMcG/edfp",
+  "bugs":       "https://github.com/RyanMcG/edfp/issues",
+  "license":    "MIT",
+
+  "dependencies": {
+    "temp": "0.8.x"
+  },
+  "bin": "./target/main.js"
+}
