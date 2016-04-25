@@ -12,7 +12,7 @@
 ls | edfp
 ```
 
-*edfp* reads stdin, assumes each line is a path to file object (file or
+*edfp* reads stdin, assumes each line is a path to a file object (file or
 directory) and allows for easy manipulation of those objects.
 
 1. Changing the name of the file will rename it.
