@@ -1,5 +1,10 @@
-# edfo
-## **ed**it **f**ile **o**bjects
+# edfp
+
+**ed**it **f**ile **p**aths
+
+---
+
+**WIP**
 
 ## Usage
 
