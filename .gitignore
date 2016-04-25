@@ -1,1 +1,8 @@
+/classes/
+*jar
+/lib/
+.nrepl-port
+.nrepl-history
+pom.xml
+pom.xml.asc
 /target/
