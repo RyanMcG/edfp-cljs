@@ -54,4 +54,6 @@ You renamed a → x and c → y and deleted b. Good job!
 
 ## License
 
-MIT. See LICENSE.
+MIT. See [LICENSE][].
+
+[LICENSE]: https://raw.githubusercontent.com/RyanMcG/edfp/master/LICENSE
